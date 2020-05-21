@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/laravel-echo-server",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "require": {
+    "cboden/ratchet": "^0.4",
+    "illuminate/contracts": "^7",
+    "illuminate/support": "^7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "thekonz\\LaravelEchoServer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
